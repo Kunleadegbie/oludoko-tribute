@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>In Loving Memory of HRM Oba Samuel Adeyemi Akinmusire (OLUDOKO of Idoko Land)</title>
+  <meta name="description" content="A tribute wall to celebrate the life and legacy of HRM Oba Samuel Adeyemi Akinmusire, OLUDOKO of Idoko Land. Share your tribute and read messages from family and friends." />
+  
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Tribute to HRM Oba Samuel Adeyemi Akinmusire" />
+  <meta property="og:description" content="Share your tribute and read messages honoring Kabiyesi." />
+  <meta property="og:image" content="assets/hero.jpg" /> <!-- replace with your hosted image path -->
+  <meta property="og:type" content="website" />
+  
+  <style>
+    :root{
+      --bg:#0b1020;          /* deep navy */
+      --card:#111830;        /* card surface */
+      --muted:#a7b0c5;       /* muted text */
+      --text:#f2f5ff;        /* primary text */
+      --accent:#c3a35a;      /* royal gold */
+      --accent-2:#5aa3c3;    /* subtle blue accent */
+      --maxw:1100px;
+      --radius:18px;
+      --shadow:0 10px 30px rgba(0,0,0,.25);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0; padding:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Helvetica,Arial,sans-serif;}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    /* Header / Nav */
+    header{position:sticky; top:0; z-index:40; backdrop-filter: blur(8px); background:rgba(11,16,32,.7); border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav{display:flex; align-items:center; justify-content:space-between; max-width:var(--maxw); margin:0 auto; padding:14px 16px}
+    .brand{display:flex; align-items:center; gap:12px}
+    .brand img{width:40px; height:40px; object-fit:cover; border-radius:50%; border:2px solid var(--accent)}
+    .brand .title{font-weight:700; letter-spacing:.2px}
+    .navlinks{display:flex; gap:18px}
+    .navlinks a{padding:8px 10px; border-radius:10px}
+    .navlinks a:hover{background:rgba(255,255,255,.06)}
+    .hamburger{display:none; cursor:pointer; border:1px solid rgba(255,255,255,.1); padding:6px 10px; border-radius:10px}
+
+    /* Hero */
+    .hero{max-width:var(--maxw); margin:26px auto 10px; padding:0 16px}
+    .hero-card{display:grid; grid-template-columns:1.1fr .9fr; gap:20px; background:linear-gradient(160deg, #0c142e 0%, #0b1020 100%); border:1px solid rgba(255,255,255,.06); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden}
+    .hero-img{min-height:260px; background:url('assets/hero.jpg') center/cover no-repeat} /* Replace with your image path */
+    .hero-body{padding:24px}
+    .kicker{color:var(--accent); text-transform:uppercase; font-size:12px; letter-spacing:1.6px}
+    h1{margin:.2rem 0 .6rem; font-size:clamp(22px, 3.2vw, 34px)}
+    .sub{color:var(--muted); line-height:1.6}
+    .cta{margin-top:16px; display:flex; flex-wrap:wrap; gap:10px}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 16px; border-radius:12px; border:1px solid rgba(255,255,255,.08); cursor:pointer; font-weight:600}
+    .btn.primary{background:var(--accent); color:#1a1a1a; border-color:transparent}
+    .btn.ghost:hover{background:rgba(255,255,255,.06)}
+
+    /* Sections */
+    section{max-width:var(--maxw); margin:28px auto; padding:0 16px}
+    .card{background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:var(--radius); box-shadow:var(--shadow)}
+    .card h2{margin:0; padding:20px 20px 0}
+    .card .content{padding:20px}
+    .grid{display:grid; gap:18px}
+    .two{grid-template-columns:1fr 1fr}
+    .embed{aspect-ratio: 16/9; width:100%; border:0; border-radius:14px; background:#0e1530}
+
+    /* Footer */
+    footer{max-width:var(--maxw); margin:40px auto 24px; padding:0 16px; color:var(--muted); font-size:14px}
+    .foot{display:flex; gap:16px; align-items:center; justify-content:space-between}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .hero-card{grid-template-columns:1fr}
+      .hero-img{min-height:220px}
+      .navlinks{display:none}
+      .hamburger{display:block}
+      #mobileMenu{display:none; border-top:1px solid rgba(255,255,255,.06); padding:8px 16px}
+      #mobileMenu a{display:block; padding:10px 0}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">
+        <img src="assets/badge.jpg" alt="Royal Seal" />
+        <div class="title">Tribute to HRM Oba S. A. Akinmusire</div>
+      </div>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#write">Write a Tribute</a>
+        <a href="#wall">Tribute Wall</a>
+        <a href="#gallery">Gallery</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+    </div>
+   
+  </header>
+
+  <main id="home" class="hero">
+    <div class="hero-card">
+      <div class="hero-img" role="img" aria-label="Portrait of HRM Oba Samuel Adeyemi Akinmusire"></div>
+      <div class="hero-body">
+        <div class="kicker">In Loving Memory</div>
+        <h1>HRM Oba Samuel Adeyemi Akinmusire<br/><span style="color:var(--accent)">OLUDOKO of Idoko Land</span></h1>
+        <p class="sub">We celebrate a life of wisdom, faith, and service. Kindly share your tribute and read messages from family and friends. Approved tributes appear on the wall below.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://forms.gle/v911hwBt3fwKubDX9" target="_blank" rel="noopener">✍️ Write a Tribute</a>
+          <a class="btn ghost" href="#wall">📜 View Tribute Wall</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="write">
+    <div class="card">
+      <h2>Write a Tribute</h2>
+      <div class="content grid two">
+        <div>
+          <p>Share your words, prayers, and memories in honor of Kabiyesi. Submissions are reviewed for clarity and respect before publishing. By submitting, you consent to online and print use.</p>
+          <ul>
+            <li>Suggested length: 80–250 words</li>
+            <li>Optional: paste a link to a photo (Google Drive, Dropbox, Instagram)</li>
+            <li>Please keep tributes respectful; no fundraising or promotions</li>
+          </ul>
+          <p>
+            <a class="btn primary" href="https://forms.gle/v911hwBt3fwKubDX9" target="_blank" rel="noopener">Open Tribute Form</a>
+          </p>
+        </div>
+        <div>
+          <!-- Embed the Google Form (alternative to the button). Replace the src with your live form link → "Send" → "Embed" iframe code. -->
+          <iframe class="embed" src="https://docs.google.com/forms/d/e/1FAIpQLSe4jyhVxXKF_LSSF8LqvlVDR-ermDaN1cd9LnW2AJ9mBkgSTg/viewform?embedded=true" title="Tribute Form"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="wall">
+    <div class="card">
+      <h2>Tribute Wall (Approved Submissions)</h2>
+      <div class="content">
+        <p class="sub">This wall updates automatically as tributes are approved in the Google Sheet. If your message doesn’t appear immediately, please check back later.</p>
+        <!-- Publish just the filtered sheet (e.g., a sheet named PublicTributes) and embed that URL below. -->
+        <iframe class="embed" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxGjfdMsrL0ADL-bs4yNNmijHMUsvAtlEayKkJYrGZzNZdADNnyllsCI0KOLj4oNtg-LaJDzNEOpL1/pubhtml?gid=696709015&single=true" title="Tribute Wall"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="card">
+      <h2>Gallery (Optional)</h2>
+      <div class="content">
+        <p>Add a few curated photos of Kabiyesi with family and community. To keep page size fast for mobile, use compressed images (under 300KB each).</p>
+        <div class="grid two">
+          <img src="assets/photo1.jpg" alt="Kabiyesi at community event" style="width:100%; border-radius:14px; border:1px solid rgba(255,255,255,.06)" />
+          <img src="assets/photo2.jpg" alt="Kabiyesi with grandchildren" style="width:100%; border-radius:14px; border:1px solid rgba(255,255,255,.06)" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">
+      <div>© <span id="year"></span> The Akinmusire Family • In Loving Memory</div>
+      <div><a href="#home">Back to top ↑</a></div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const ham = document.getElementById('hamburger');
+    const menu = document.getElementById('mobileMenu');
+    ham && ham.addEventListener('click', ()=>{
+      menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+    });
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Smooth scroll for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id = a.getAttribute('href');
+        if(id.length>1){
+          e.preventDefault();
+          document.querySelector(id).scrollIntoView({behavior:'smooth'});
+        }
+      })
+    })
+  </script>
+</body>
+</html>
